@@ -6,7 +6,7 @@ import pandas as pd
 import joblib
 import os
 
-model = joblib.load("/mount/src/did-you-survive/xgbpipe.joblib")
+model = joblib.load("xgbpipe.joblib")
 
 st.title('Did they survive? :ship:')
 
