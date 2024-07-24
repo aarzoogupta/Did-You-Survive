@@ -5,7 +5,8 @@ import numpy as np
 import pandas as pd
 import joblib
 
-model = joblib.load("xgbpipe.joblib")
+#model = joblib.load("xgbpipe.joblib")
+model = joblib.load(open(os.path.join("xgbpipe.joblib"),"rb"))
 st.title('Did they survive? :ship:')
 
 passengerid = st.text_input("Input Passenger ID", '123456') 
