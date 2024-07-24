@@ -7,7 +7,7 @@ import joblib
 import os
 
 model = joblib.load("xgbpipe.joblib")
-#model = joblib.load(open(os.path.join("xgbpipe.joblib"),"rb"))
+
 st.title('Did they survive? :ship:')
 
 passengerid = st.text_input("Input Passenger ID", '123456') 
