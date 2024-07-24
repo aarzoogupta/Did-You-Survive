@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import joblib
 
-model = joblib.load('xgbpipe.joblib')
+model = joblib.load(open('xgbpipe.joblib', 'rb'))
 
 st.title('Did they survive? :ship:')
 
