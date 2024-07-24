@@ -4,6 +4,7 @@ from utils import PrepProcesor, columns
 import numpy as np
 import pandas as pd
 import joblib
+import os
 
 #model = joblib.load("xgbpipe.joblib")
 model = joblib.load(open(os.path.join("xgbpipe.joblib"),"rb"))
