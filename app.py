@@ -6,7 +6,7 @@ import pandas as pd
 import joblib
 import os
 
-model = joblib.load("xgbpipe.joblib")
+model = joblib.load("xgbpipe.sav")
 
 st.title('Did they survive? :ship:')
 
